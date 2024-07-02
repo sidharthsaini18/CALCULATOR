@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="cal.css" />
+  </head>
+  <body>
+    <div id="calculator">
+      <input type="text" id="display" readonly />
+      <div id="row">
+        <button onclick="C()">C</button>
+        <button onclick="One()">1</button>
+        <button onclick="Two()">2</button>
+      </div>
+      <div id="row">
+        <button onclick="Plus()">+</button>
+        <button onclick="Three()">3</button>
+        <button onclick="Four()">4</button>
+      </div>
+      <div id="row">
+        <button onclick="Sub()">-</button>
+        <button onclick="Five()">5</button>
+        <button onclick="Six()">6</button>
+      </div>
+      <div id="row">
+        <button onclick="Multiply()">*</button>
+        <button onclick="Seven()">7</button>
+        <button onclick="Eight()">8</button>
+      </div>
+      <div id="row">
+        <button onclick="Divide()">/</button>
+        <button onclick="Zero()">0</button>
+        <button onclick="Nine()">9</button>
+      </div>
+      <div id="row"></div>
+        <button onclick="Dot()">.</button>
+        <button onclick="Equal()">=</button>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
